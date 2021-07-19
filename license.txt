@@ -1,4 +1,4 @@
-WordPress - Web publishing software
+LitePress - Web publishing software
 
 Copyright 2011-2021 by the contributors
 
@@ -28,11 +28,11 @@ permission notices:
 
 and
 
-  WordPress - Web publishing software
+  LitePress - Web publishing software
 
   Copyright 2003-2010 by the contributors
 
-  WordPress is released under the GPL
+  LitePress is released under the GPL
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
@@ -379,6 +379,6 @@ Public License instead of this License.
 WRITTEN OFFER
 
 The source code for any program binaries or compressed scripts that are
-included with WordPress can be freely obtained at the following URL:
+included with LitePress can be freely obtained at the following URL:
 
-	https://wordpress.org/download/source/
+	https://litepress.cn/
