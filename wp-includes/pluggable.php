@@ -370,7 +370,7 @@ if ( ! function_exists( 'wp_mail' ) ) :
 		}
 
 		/*
-		 * If we don't have an email from the input headers, default to wordpress@$sitename
+		 * 如果输入中没有邮箱地址，默认将会是litepress@$sitename
 		 * Some hosts will block outgoing mail from this address if it doesn't exist,
 		 * but there's no easy alternative. Defaulting to admin_email might appear to be
 		 * another option, but some hosts may refuse to relay mail from an unknown domain.
@@ -383,7 +383,7 @@ if ( ! function_exists( 'wp_mail' ) ) :
 				$sitename = substr( $sitename, 4 );
 			}
 
-			$from_email = 'wordpress@' . $sitename;
+			$from_email = 'litepress@' . $sitename;
 		}
 
 		/**
@@ -1698,7 +1698,7 @@ if ( ! function_exists( 'wp_notify_postauthor' ) ) :
 			$notify_message .= sprintf( __( 'Spam it: %s' ), admin_url( "comment.php?action=spam&c={$comment->comment_ID}#wpbody-content" ) ) . "\r\n";
 		}
 
-		$wp_email = 'wordpress@' . preg_replace( '#^www\.#', '', wp_parse_url( network_home_url(), PHP_URL_HOST ) );
+		$wp_email = 'litepress@' . preg_replace( '#^www\.#', '', wp_parse_url( network_home_url(), PHP_URL_HOST ) );
 
 		if ( '' === $comment->comment_author ) {
 			$from = "From: \"$blogname\" <$wp_email>";
