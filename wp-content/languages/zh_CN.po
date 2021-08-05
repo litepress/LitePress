@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.8.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-01 18:10+0800\n"
+"PO-Revision-Date: 2021-08-05 17:04+0800\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -401,7 +401,7 @@ msgstr "插入诗歌，使用特殊的空白格式，或引用歌词。"
 #: wp-includes/blocks/text-columns/block.json
 msgctxt "block description"
 msgid "This block is deprecated. Please use the Columns block instead."
-msgstr "此区块已弃用。请改用“列”区块。"
+msgstr "此区块已弃用。请改用“栏目”区块。"
 
 #: wp-includes/blocks/tag-cloud/block.json
 msgctxt "block description"
@@ -975,7 +975,7 @@ msgstr "添加有文字浮层的图片或视频，适合作为页眉。"
 #: wp-includes/blocks/column/block.json
 msgctxt "block description"
 msgid "A single column within a columns block."
-msgstr "列区块中的单个列。"
+msgstr "栏目区块中的单衣列。"
 
 #: wp-includes/blocks/code/block.json
 msgctxt "block description"
@@ -1080,8 +1080,8 @@ msgid "Type / to choose a block"
 msgstr "输入/来选择一个区块"
 
 #: wp-includes/js/dist/block-editor.js:17409
-#: wp-admin/includes/class-wp-screen.php:1207 wp-admin/includes/theme.php:340
-#: wp-admin/includes/theme.php:376 wp-admin/index.php:68
+#: wp-admin/includes/class-wp-screen.php:1207 wp-admin/includes/theme.php:342
+#: wp-admin/includes/theme.php:378 wp-admin/index.php:68
 msgid "Layout"
 msgstr "布局"
 
@@ -1797,7 +1797,7 @@ msgstr "诗篇"
 #: wp-includes/blocks/text-columns/block.json
 msgctxt "block title"
 msgid "Text Columns (deprecated)"
-msgstr "文字列（已弃用）"
+msgstr "文本栏（已弃用）"
 
 #: wp-includes/blocks/table/block.json
 msgctxt "block title"
@@ -1902,12 +1902,12 @@ msgstr "封面"
 #: wp-includes/blocks/column/block.json
 msgctxt "block title"
 msgid "Column"
-msgstr "列"
+msgstr "单衣栏目"
 
 #: wp-includes/blocks/columns/block.json
 msgctxt "block title"
 msgid "Columns"
-msgstr "列"
+msgstr "栏目"
 
 #: wp-includes/blocks/code/block.json
 msgctxt "block title"
@@ -2560,34 +2560,34 @@ msgstr "常量%s已不再支持。"
 
 #. translators: %s: Theme name.
 #: wp-includes/customize/class-wp-customize-theme-control.php:161
-#: wp-admin/includes/theme.php:912 wp-admin/includes/update.php:772
+#: wp-admin/includes/theme.php:914 wp-admin/includes/update.php:772
 #: wp-admin/themes.php:438 wp-admin/themes.php:793 wp-admin/themes.php:1068
 msgid "There is a new version of %s available, but it doesn&#8217;t work with your version of PHP."
 msgstr "%s的新版本可用，但无法在您安装版本的LitePress和PHP上工作。"
 
 #. translators: %s: Theme name.
 #: wp-includes/customize/class-wp-customize-theme-control.php:146
-#: wp-admin/includes/theme.php:897 wp-admin/includes/update.php:759
+#: wp-admin/includes/theme.php:899 wp-admin/includes/update.php:759
 #: wp-admin/themes.php:425 wp-admin/themes.php:778 wp-admin/themes.php:1053
 msgid "There is a new version of %s available, but it doesn&#8217;t work with your version of WordPress."
 msgstr "%s的新版本可用，但无法在您安装版本的LitePress和PHP上工作。"
 
 #. translators: %s: Theme name.
 #: wp-includes/customize/class-wp-customize-theme-control.php:116
-#: wp-admin/includes/theme.php:867 wp-admin/includes/update.php:731
+#: wp-admin/includes/theme.php:869 wp-admin/includes/update.php:731
 #: wp-admin/themes.php:397 wp-admin/themes.php:748 wp-admin/themes.php:1023
 msgid "There is a new version of %s available, but it doesn&#8217;t work with your versions of WordPress and PHP."
 msgstr "%s的新版本可用，但无法在您安装版本的LitePress和PHP上工作。"
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:220
-#: wp-admin/includes/theme.php:983 wp-admin/theme-install.php:335
+#: wp-admin/includes/theme.php:985 wp-admin/theme-install.php:335
 #: wp-admin/theme-install.php:521 wp-admin/themes.php:492
 #: wp-admin/themes.php:851 wp-admin/themes.php:995
 msgid "This theme doesn&#8217;t work with your version of PHP."
 msgstr "此主题未适配当前PHP版本。"
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:209
-#: wp-admin/includes/theme.php:972 wp-admin/theme-install.php:324
+#: wp-admin/includes/theme.php:974 wp-admin/theme-install.php:324
 #: wp-admin/theme-install.php:510 wp-admin/themes.php:483
 #: wp-admin/themes.php:840 wp-admin/themes.php:984
 msgid "This theme doesn&#8217;t work with your version of WordPress."
@@ -2600,9 +2600,9 @@ msgstr "此主题未适配当前LitePress版本。"
 #: wp-includes/customize/class-wp-customize-theme-control.php:224
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:683
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:702
-#: wp-admin/includes/plugin.php:1143 wp-admin/includes/theme.php:887
-#: wp-admin/includes/theme.php:918 wp-admin/includes/theme.php:964
-#: wp-admin/includes/theme.php:987 wp-admin/includes/update-core.php:1014
+#: wp-admin/includes/plugin.php:1143 wp-admin/includes/theme.php:889
+#: wp-admin/includes/theme.php:920 wp-admin/includes/theme.php:966
+#: wp-admin/includes/theme.php:989 wp-admin/includes/update-core.php:1018
 #: wp-admin/includes/update.php:751 wp-admin/includes/update.php:778
 #: wp-admin/install.php:244 wp-admin/theme-install.php:316
 #: wp-admin/theme-install.php:339 wp-admin/theme-install.php:502
@@ -2624,8 +2624,8 @@ msgstr "<a href=\"%s\">查阅如何更新PHP</a>。"
 #: wp-includes/customize/class-wp-customize-theme-control.php:213
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:677
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:693
-#: wp-admin/includes/theme.php:881 wp-admin/includes/theme.php:903
-#: wp-admin/includes/theme.php:958 wp-admin/includes/theme.php:976
+#: wp-admin/includes/theme.php:883 wp-admin/includes/theme.php:905
+#: wp-admin/includes/theme.php:960 wp-admin/includes/theme.php:978
 #: wp-admin/includes/update.php:745 wp-admin/includes/update.php:765
 #: wp-admin/theme-install.php:310 wp-admin/theme-install.php:328
 #: wp-admin/theme-install.php:496 wp-admin/theme-install.php:514
@@ -2641,7 +2641,7 @@ msgstr "<a href=\"%s\">请更新LitePress</a>。"
 #: wp-includes/customize/class-wp-customize-theme-control.php:122
 #: wp-includes/customize/class-wp-customize-theme-control.php:187
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:669
-#: wp-admin/includes/theme.php:873 wp-admin/includes/theme.php:950
+#: wp-admin/includes/theme.php:875 wp-admin/includes/theme.php:952
 #: wp-admin/includes/update.php:737 wp-admin/theme-install.php:302
 #: wp-admin/theme-install.php:488 wp-admin/themes.php:403
 #: wp-admin/themes.php:463 wp-admin/themes.php:754 wp-admin/themes.php:818
@@ -2651,7 +2651,7 @@ msgid "<a href=\"%1$s\">Please update WordPress</a>, and then <a href=\"%2$s\">l
 msgstr "<a href=\"%1$s\">请更新LitePress</a>，并<a href=\"%2$s\">查阅如何更新PHP</a>。"
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:183
-#: wp-admin/includes/theme.php:946 wp-admin/theme-install.php:298
+#: wp-admin/includes/theme.php:948 wp-admin/theme-install.php:298
 #: wp-admin/theme-install.php:484 wp-admin/themes.php:459
 #: wp-admin/themes.php:814 wp-admin/themes.php:958
 msgid "This theme doesn&#8217;t work with your versions of WordPress and PHP."
@@ -2761,7 +2761,7 @@ msgstr "画廊"
 #: wp-includes/block-patterns.php:40
 msgctxt "Block pattern category"
 msgid "Columns"
-msgstr "列"
+msgstr "栏目"
 
 #: wp-includes/block-patterns.php:39
 msgctxt "Block pattern category"
@@ -3155,7 +3155,7 @@ msgid "Cannot delete an active plugin. Please deactivate it first."
 msgstr "无法删除已启用的插件。 请先将其禁用。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:490
-#: wp-admin/includes/ajax-actions.php:4562 wp-admin/plugins.php:268
+#: wp-admin/includes/ajax-actions.php:4564 wp-admin/plugins.php:268
 msgid "Sorry, you are not allowed to delete plugins for this site."
 msgstr "抱歉，您不能在此站点上删除插件。"
 
@@ -3164,12 +3164,12 @@ msgid "Unable to determine what plugin was installed."
 msgstr "无法确定安装了什么插件。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:338
-#: wp-admin/includes/ajax-actions.php:4096
-#: wp-admin/includes/ajax-actions.php:4226
-#: wp-admin/includes/ajax-actions.php:4290
-#: wp-admin/includes/ajax-actions.php:4390
-#: wp-admin/includes/ajax-actions.php:4517
-#: wp-admin/includes/ajax-actions.php:4586
+#: wp-admin/includes/ajax-actions.php:4098
+#: wp-admin/includes/ajax-actions.php:4228
+#: wp-admin/includes/ajax-actions.php:4292
+#: wp-admin/includes/ajax-actions.php:4392
+#: wp-admin/includes/ajax-actions.php:4519
+#: wp-admin/includes/ajax-actions.php:4588
 msgid "Unable to connect to the filesystem. Please confirm your credentials."
 msgstr "无法连接至文件系统。 请确认您的凭据。"
 
@@ -3178,7 +3178,7 @@ msgid "Sorry, you are not allowed to activate plugins."
 msgstr "抱歉，您不能启用插件。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:245
-#: wp-admin/includes/ajax-actions.php:4343 wp-admin/plugin-install.php:19
+#: wp-admin/includes/ajax-actions.php:4345 wp-admin/plugin-install.php:19
 #: wp-admin/update.php:106 wp-admin/update.php:149 wp-admin/update.php:181
 msgid "Sorry, you are not allowed to install plugins on this site."
 msgstr "抱歉，您不能在此站点上安装插件。"
@@ -3192,8 +3192,8 @@ msgstr "找不到插件。"
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:166
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:412
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:482
-#: wp-admin/includes/ajax-actions.php:4638
-#: wp-admin/includes/ajax-actions.php:4690 wp-admin/plugins.php:13
+#: wp-admin/includes/ajax-actions.php:4640
+#: wp-admin/includes/ajax-actions.php:4692 wp-admin/plugins.php:13
 msgid "Sorry, you are not allowed to manage plugins for this site."
 msgstr "抱歉，您不能在此站点上管理插件。"
 
@@ -4314,8 +4314,8 @@ msgstr "从回收站中恢复"
 #: wp-admin/includes/class-wp-automatic-updater.php:1234
 #: wp-admin/includes/plugin-install.php:181
 #: wp-admin/includes/plugin-install.php:196
-#: wp-admin/includes/plugin-install.php:211 wp-admin/includes/theme.php:563
-#: wp-admin/includes/theme.php:577 wp-admin/includes/theme.php:592
+#: wp-admin/includes/plugin-install.php:211 wp-admin/includes/theme.php:565
+#: wp-admin/includes/theme.php:579 wp-admin/includes/theme.php:594
 #: wp-admin/includes/translation-install.php:66
 #: wp-admin/includes/translation-install.php:80
 #: wp-admin/includes/translation-install.php:92
@@ -4538,8 +4538,8 @@ msgstr "https://litepress.cn/support/article/cookies/"
 msgid "Missing confirm key."
 msgstr "缺少确认密钥。"
 
-#: wp-login.php:1068 wp-admin/includes/ajax-actions.php:4753
-#: wp-admin/includes/ajax-actions.php:4943
+#: wp-login.php:1068 wp-admin/includes/ajax-actions.php:4755
+#: wp-admin/includes/ajax-actions.php:4945
 msgid "Missing request ID."
 msgstr "缺少请求ID。"
 
@@ -4765,7 +4765,7 @@ msgstr "嵌入"
 #: wp-includes/blocks/columns/block.json
 msgctxt "block description"
 msgid "Add a block that displays content in multiple columns, then add whatever content blocks you’d like."
-msgstr "添加一个可显示多列内容的区块，然后添加任何您喜欢的内容区块。"
+msgstr "添加可显示多栏内容的区块，然后在其中添加任何您喜欢的内容。"
 
 #: wp-includes/blocks/freeform/block.json
 msgctxt "block title"
@@ -4853,7 +4853,7 @@ msgstr "项目已添加。"
 #: wp-admin/includes/dashboard.php:1285 wp-admin/includes/dashboard.php:1297
 #: wp-admin/includes/dashboard.php:1310 wp-admin/includes/dashboard.php:1859
 #: wp-admin/includes/media.php:3241 wp-admin/includes/meta-boxes.php:80
-#: wp-admin/includes/theme.php:846
+#: wp-admin/includes/theme.php:848
 msgid "(opens in a new tab)"
 msgstr "（在新窗口中打开）"
 
@@ -5132,7 +5132,7 @@ msgid ""
 msgstr ""
 "您好：\n"
 "\n"
-"您在###SITENAME###的个人数据抹除请求已被完成。\n"
+"您在###SITENAME###的个人数据抹除请求已完成。\n"
 "\n"
 "如果您有更多问题或担忧，请联系站点管理员。\n"
 "\n"
@@ -6209,7 +6209,7 @@ msgstr "搜索LitePress.cn主题"
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:261
 #: wp-includes/customize/class-wp-customize-theme-control.php:263
-#: wp-admin/includes/theme.php:1023 wp-admin/includes/theme.php:1026
+#: wp-admin/includes/theme.php:1025 wp-admin/includes/theme.php:1028
 msgid "Install &amp; Preview"
 msgstr "安装并预览"
 
@@ -9534,7 +9534,7 @@ msgstr "您确定数据库服务器并未运行在高负载下吗？"
 #. translators: %s: Database host.
 #: wp-includes/wp-db.php:1864
 msgid "This means that we lost contact with the database server at %s. This could mean your host&#8217;s database server is down."
-msgstr "这意味着我们与在%s的数据库服务器失去了联系。这可能意味着您主机的数据库服务器未在运行。"
+msgstr "这意味着我们无法与数据库服务器 %s 进行通信。也可能是您主机的数据库服务器未在运行。"
 
 #: wp-includes/wp-db.php:1860
 msgid "Error reconnecting to the database"
@@ -9560,7 +9560,7 @@ msgstr "您确定用户名和密码正确吗？"
 #. translators: 1: wp-config.php, 2: Database host.
 #: wp-includes/wp-db.php:1705
 msgid "This either means that the username and password information in your %1$s file is incorrect or we can&#8217;t contact the database server at %2$s. This could mean your host&#8217;s database server is down."
-msgstr "这意味着您在%1$s文件中指定的用户名和密码信息不正确，或我们未能在%2$s联系到数据库服务器。这可能意味着您主机的数据库服务器未在运行。"
+msgstr "您看到此页面，则表示您在 %1$s 文件中定义的用户名和密码信息不正确，或是我们无法与  数据库服务器 %2$s 进行通信。也可能是您主机的数据库服务器已关闭。"
 
 #. translators: %s: Support forums URL.
 #: wp-includes/wp-db.php:1121
@@ -9864,7 +9864,7 @@ msgstr "较早评论"
 #. translators: Post calendar label. %s: Date.
 #: wp-includes/general-template.php:2353
 msgid "Posts published on %s"
-msgstr "于%s上发布的文章"
+msgstr "%s 发布的文章"
 
 #. translators: %s: 'document_title_separator' filter name.
 #: wp-includes/feed.php:106 wp-includes/feed.php:132
@@ -9926,7 +9926,7 @@ msgid "Live Preview: %s"
 msgstr "实时预览：%s"
 
 #: wp-includes/class-wp-customize-manager.php:580
-#: wp-admin/includes/ajax-actions.php:4275 wp-admin/includes/file.php:435
+#: wp-admin/includes/ajax-actions.php:4277 wp-admin/includes/file.php:435
 #: wp-admin/includes/file.php:445 wp-admin/theme-editor.php:69
 #: wp-admin/theme-editor.php:73 wp-admin/themes.php:28 wp-admin/themes.php:71
 msgid "The requested theme does not exist."
@@ -10778,7 +10778,7 @@ msgstr "链接文字"
 #: wp-admin/includes/class-theme-installer-skin.php:131
 #: wp-admin/includes/class-theme-upgrader-skin.php:103
 #: wp-admin/includes/class-wp-themes-list-table.php:223
-#: wp-admin/includes/theme.php:1016 wp-admin/includes/theme.php:1018
+#: wp-admin/includes/theme.php:1018 wp-admin/includes/theme.php:1020
 #: wp-admin/theme-install.php:376 wp-admin/theme-install.php:392
 #: wp-admin/themes.php:547 wp-admin/themes.php:556 wp-admin/themes.php:906
 #: wp-admin/themes.php:913 wp-admin/themes.php:1121 wp-admin/themes.php:1130
@@ -11251,7 +11251,7 @@ msgstr "<strong>错误</strong>：评论未被保存，请稍候再试。"
 
 #: wp-includes/update.php:174 wp-includes/update.php:412
 #: wp-includes/update.php:692 wp-admin/includes/plugin-install.php:182
-#: wp-admin/includes/theme.php:564 wp-admin/includes/translation-install.php:67
+#: wp-admin/includes/theme.php:566 wp-admin/includes/translation-install.php:67
 #: wp-admin/includes/update.php:142
 msgid "(WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.)"
 msgstr "（LitePress无法建立到LitePress.cn的安全连接，请联系您的服务器管理员。）"
@@ -11900,7 +11900,7 @@ msgstr "单元格内边距"
 
 #: wp-includes/class-wp-editor.php:1339
 msgid "Column group"
-msgstr "列组"
+msgstr "栏目组合"
 
 #: wp-includes/class-wp-editor.php:1302
 msgid "Rows"
@@ -12214,8 +12214,8 @@ msgstr "您站点的文章列表。"
 #: wp-includes/update.php:172 wp-includes/update.php:410
 #: wp-includes/update.php:690 wp-admin/includes/plugin-install.php:180
 #: wp-admin/includes/plugin-install.php:195
-#: wp-admin/includes/plugin-install.php:210 wp-admin/includes/theme.php:562
-#: wp-admin/includes/theme.php:576 wp-admin/includes/theme.php:591
+#: wp-admin/includes/plugin-install.php:210 wp-admin/includes/theme.php:564
+#: wp-admin/includes/theme.php:578 wp-admin/includes/theme.php:593
 #: wp-admin/includes/translation-install.php:65
 #: wp-admin/includes/translation-install.php:79
 #: wp-admin/includes/translation-install.php:91
@@ -12273,7 +12273,7 @@ msgstr "about,an,are,as,at,be,by,com,for,from,how,in,is,it,of,on,or,that,the,thi
 
 #: wp-includes/post-template.php:1725
 msgid "This content is password protected. To view it please enter your password below:"
-msgstr "这是一篇受密码保护的文章，您需要提供访问密码："
+msgstr "此内容受密码保护。如需查阅，请在下列字段中输入您的密码。"
 
 #: wp-includes/functions.php:1564
 msgid "Error: This is not a valid feed template."
@@ -12540,7 +12540,7 @@ msgstr "随机"
 
 #: wp-includes/media-template.php:1475 wp-includes/media.php:4456
 #: wp-admin/includes/ajax-actions.php:2179
-#: wp-admin/includes/ajax-actions.php:3798
+#: wp-admin/includes/ajax-actions.php:3800
 #: wp-admin/includes/class-wp-list-table.php:335
 #: wp-admin/includes/class-wp-themes-list-table.php:93
 msgid "No items found."
@@ -12653,7 +12653,7 @@ msgstr "自定义URL"
 #: wp-includes/js/dist/block-library.js:29192
 #: wp-admin/includes/class-wp-screen.php:1158
 msgid "Columns"
-msgstr "列"
+msgstr "栏目"
 
 #: wp-includes/media-template.php:706
 msgid "Alt Text"
@@ -12975,7 +12975,7 @@ msgstr "选择文件"
 #: wp-includes/customize/class-wp-customize-theme-control.php:240
 #: wp-admin/customize.php:210
 #: wp-admin/includes/class-theme-upgrader-skin.php:92
-#: wp-admin/includes/theme.php:1007 wp-admin/menu.php:206
+#: wp-admin/includes/theme.php:1009 wp-admin/menu.php:206
 #: wp-admin/theme-install.php:378 wp-admin/themes.php:534
 #: wp-admin/themes.php:893 wp-admin/themes.php:1109
 msgid "Customize"
@@ -15549,7 +15549,7 @@ msgstr "离开这个页面，您所做的更改将丢失。"
 
 #: wp-includes/class-wp-editor.php:1303
 msgid "Column"
-msgstr "列"
+msgstr "单衣栏目"
 
 #: wp-includes/class-wp-editor.php:1301
 msgid "Row"
@@ -15867,7 +15867,7 @@ msgstr "&raquo;"
 #: wp-includes/general-template.php:2281
 msgctxt "calendar caption"
 msgid "%1$s %2$s"
-msgstr "%2$s年 %1$s月"
+msgstr "%2$s年 %1$s"
 
 #. translators: 1: Month name, 2: 4-digit year.
 #. translators: 1: Month, 2: Year.
@@ -16739,7 +16739,7 @@ msgstr "图片"
 #: wp-admin/includes/class-wp-theme-install-list-table.php:368
 #: wp-admin/includes/class-wp-theme-install-list-table.php:500
 #: wp-admin/includes/class-wp-themes-list-table.php:263
-#: wp-admin/includes/theme.php:832 wp-admin/theme-install.php:353
+#: wp-admin/includes/theme.php:834 wp-admin/theme-install.php:353
 #: wp-admin/theme-install.php:452 wp-admin/themes.php:514
 #: wp-admin/themes.php:873 wp-admin/themes.php:950
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:717

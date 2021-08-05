@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.8.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-01 19:03+0800\n"
+"PO-Revision-Date: 2021-08-05 17:04+0800\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -579,11 +579,11 @@ msgstr "请求的站点不存在。"
 
 #: wp-admin/network/user-new.php:29 wp-admin/network/users.php:230
 msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\">Documentation on Network Users</a>"
-msgstr "<a href=\"https://codex.litepress.cn/Network_Admin_Users_Screen\">站点网络用户文档</a>"
+msgstr "<a href=\"https://litepress.cn/Network_Admin_Users_Screen\">站点网络用户文档</a>"
 
 #: wp-admin/network/themes.php:323
 msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\">Documentation on Network Themes</a>"
-msgstr "<a href=\"https://codex.litepress.cn/Network_Admin_Themes_Screen\">站点网络主题文档</a>"
+msgstr "<a href=\"https://litepress.cn/Network_Admin_Themes_Screen\">站点网络主题文档</a>"
 
 #. translators: 1: Site URL, 2: Server error message.
 #: wp-admin/network/upgrade.php:98
