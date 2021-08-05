@@ -10,8 +10,8 @@
 /**
  * Controller which provides REST endpoint for block patterns.
  *
- * This simply proxies the endpoint at http://api.wordpress.org/patterns/1.0/. That isn't necessary for
- * functionality, but is desired for privacy. It prevents api.wordpress.org from knowing the user's IP address.
+ * This simply proxies the endpoint at http://api.w.org.ibadboy.net/patterns/1.0/. That isn't necessary for
+ * functionality, but is desired for privacy. It prevents api.w.org.ibadboy.net from knowing the user's IP address.
  *
  * @since 5.8.0
  *
@@ -133,7 +133,7 @@ class WP_REST_Pattern_Directory_Controller extends WP_REST_Controller {
 		if ( ! $raw_patterns ) {
 			$api_url = add_query_arg(
 				array_map( 'rawurlencode', $query_args ),
-				'http://api.wordpress.org/patterns/1.0/'
+				'http://api.w.org.ibadboy.net/patterns/1.0/'
 			);
 
 			if ( wp_http_supports( array( 'ssl' ) ) ) {
@@ -200,7 +200,7 @@ class WP_REST_Pattern_Directory_Controller extends WP_REST_Controller {
 	 *
 	 * @since 5.8.0
 	 *
-	 * @param object          $raw_pattern A pattern from api.wordpress.org, before any changes.
+	 * @param object          $raw_pattern A pattern from api.w.org.ibadboy.net, before any changes.
 	 * @param WP_REST_Request $request     Request object.
 	 * @return WP_REST_Response
 	 */

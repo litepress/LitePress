@@ -11,7 +11,7 @@
  *
  * The WordPress version, PHP version, and locale is sent.
  *
- * Checks against the WordPress server at api.wordpress.org. Will only check
+ * Checks against the WordPress server at api.w.org.ibadboy.net. Will only check
  * if WordPress isn't installing.
  *
  * @since 2.3.0
@@ -143,7 +143,7 @@ function wp_version_check( $extra_stats = array(), $force_check = false ) {
 		$query['channel'] = WP_AUTO_UPDATE_CORE;
 	}
 
-	$url      = 'http://api.wordpress.org/core/version-check/1.7/?' . http_build_query( $query, null, '&' );
+	$url      = 'http://api.w.org.ibadboy.net/core/version-check/1.7/?' . http_build_query( $query, null, '&' );
 	$http_url = $url;
 	$ssl      = wp_http_supports( array( 'ssl' ) );
 
@@ -264,7 +264,7 @@ function wp_version_check( $extra_stats = array(), $force_check = false ) {
  *
  * A list of all plugins installed is sent to WP, along with the site locale.
  *
- * Checks against the WordPress server at api.wordpress.org. Will only check
+ * Checks against the WordPress server at api.w.org.ibadboy.net. Will only check
  * if WordPress isn't installing.
  *
  * @since 2.3.0
@@ -393,7 +393,7 @@ function wp_update_plugins( $extra_stats = array() ) {
 		$options['body']['update_stats'] = wp_json_encode( $extra_stats );
 	}
 
-	$url      = 'http://api.wordpress.org/plugins/update-check/1.1/';
+	$url      = 'http://api.w.org.ibadboy.net/plugins/update-check/1.1/';
 	$http_url = $url;
 	$ssl      = wp_http_supports( array( 'ssl' ) );
 
@@ -538,7 +538,7 @@ function wp_update_plugins( $extra_stats = array() ) {
  *
  * A list of all themes installed is sent to WP, along with the site locale.
  *
- * Checks against the WordPress server at api.wordpress.org. Will only check
+ * Checks against the WordPress server at api.w.org.ibadboy.net. Will only check
  * if WordPress isn't installing.
  *
  * @since 2.7.0
@@ -673,7 +673,7 @@ function wp_update_themes( $extra_stats = array() ) {
 		$options['body']['update_stats'] = wp_json_encode( $extra_stats );
 	}
 
-	$url      = 'http://api.wordpress.org/themes/update-check/1.1/';
+	$url      = 'http://api.w.org.ibadboy.net/themes/update-check/1.1/';
 	$http_url = $url;
 	$ssl      = wp_http_supports( array( 'ssl' ) );
 

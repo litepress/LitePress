@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.8.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-01 19:03+0800\n"
+"PO-Revision-Date: 2021-10-01 18:10+0800\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2530,7 +2530,7 @@ msgstr "默认文章设置"
 #. translators: %s: Gravatar URL.
 #: wp-admin/user-edit.php:590
 msgid "<a href=\"%s\">You can change your profile picture on Gravatar</a>."
-msgstr "<a href=\"%s\">您可以在Gravatar修改您的资料图片</a>。"
+msgstr "<a href=\"%s\">您可以在Cravatar修改您的资料图片</a>。"
 
 #: wp-admin/plugins.php:706
 msgid "Plugin resumed."
@@ -4628,7 +4628,7 @@ msgstr "Cookies"
 #. translators: Default privacy policy text.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:496
 msgid "An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment."
-msgstr "由您的电子邮箱地址所生成的匿名化字符串（又称为哈希）可能会被提供给Gravatar服务确认您是否有使用该服务。Gravatar服务的隐私政策在此：https://automattic.com/privacy/。在您的评论获批准后，您的资料图片将在您的评论旁公开展示。"
+msgstr "由您的电子邮箱地址所生成的匿名化字符串（又称为哈希）可能会被提供给Cravatar服务确认您是否有使用该服务。Cravatar服务的隐私政策在此：https://automattic.com/privacy/。在您的评论获批准后，您的资料图片将在您的评论旁公开展示。"
 
 #. translators: Default privacy policy text.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:494
@@ -5879,7 +5879,7 @@ msgid ""
 msgstr ""
 "嗨，这是一条评论。\n"
 "要开始审核、编辑及删除评论，请访问仪表盘的“评论”页面。\n"
-"评论者头像来自<a href=\"https://gravatar.com\">Gravatar</a>。"
+"评论者头像来自<a href=\"https://cravatar.cn\">Cravatar</a>。"
 
 #: wp-admin/includes/upgrade.php:268
 msgid "A WordPress Commenter"
@@ -6534,7 +6534,7 @@ msgstr "<strong>版本%s</strong>修正了一个安全问题。"
 
 #: wp-admin/user-edit.php:591
 msgid "https://en.gravatar.com/"
-msgstr "https://cn.gravatar.com/"
+msgstr "https://cravatar.cn/"
 
 #: wp-admin/user-edit.php:582
 msgid "Profile Picture"
@@ -7633,7 +7633,7 @@ msgstr "启用全高度编辑器和免打扰功能。"
 
 #: wp-admin/includes/dashboard.php:1543
 msgid "https://planet.wordpress.org/feed/"
-msgstr "https://planet.litepress.cn/feed/"
+msgstr "https://litepress.cn/feed/"
 
 #: wp-admin/includes/dashboard.php:1534 wp-admin/index.php:96
 msgid "https://planet.wordpress.org/"
@@ -11225,7 +11225,7 @@ msgstr[0] "%s位用户"
 
 #: wp-admin/includes/dashboard.php:1510
 msgid "https://wordpress.org/news/feed/"
-msgstr "https://litepress.cn/news/feed/"
+msgstr "https://litepress.cn/feed/"
 
 #: wp-admin/includes/dashboard.php:1501
 msgid "https://wordpress.org/news/"
@@ -12947,7 +12947,7 @@ msgstr "抽象图形（自动生成）"
 
 #: wp-admin/options-discussion.php:277
 msgid "Gravatar Logo"
-msgstr "Gravatar标志"
+msgstr "Cravatar标志"
 
 #: wp-admin/options-discussion.php:276
 msgid "Blank"

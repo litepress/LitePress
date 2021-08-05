@@ -1161,7 +1161,7 @@ function download_url( $url, $timeout = 300, $signature_verification = false ) {
 		 *
 		 * @param string[] $hostnames List of hostnames.
 		 */
-		$signed_hostnames = apply_filters( 'wp_signature_hosts', array( 'wordpress.org', 'downloads.wordpress.org', 's.w.org' ) );
+		$signed_hostnames = apply_filters( 'wp_signature_hosts', array( 'wordpress.org', 'd.w.org.ibadboy.net', 's.w.org' ) );
 
 		$signature_verification = in_array( parse_url( $url, PHP_URL_HOST ), $signed_hostnames, true );
 	}

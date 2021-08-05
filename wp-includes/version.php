@@ -1,43 +1,45 @@
 <?php
 /**
- * WordPress Version
+ * LitePress 版本
  *
- * Contains version information for the current WordPress release.
+ * 当前LitePress分支的版本信息
  *
- * @package WordPress
- * @since 1.2.0
+ * @package LitePress
+ * @since 5.8.0
  */
 
 /**
- * The WordPress version string.
+ * LitePress 版本字符串
  *
- * @global string $wp_version
+ * @global string $lp_version
  */
-$wp_version = '5.8.0.1-Beta';
+$lp_version = '5.8.0.1-Beta2';
+$wp_version = $lp_version;
 
 /**
- * Holds the WordPress DB revision, increments when changes are made to the WordPress DB schema.
+ * LitePress 数据库版本，将在对LitePress数据库进行更改时递增。
  *
- * @global int $wp_db_version
+ * @global int $lp_db_version
  */
-$wp_db_version = 49752;
+$lp_db_version = 49752;
+$wp_db_version = $lp_db_version;
 
 /**
- * Holds the TinyMCE version.
+ * TinyMCE 版本
  *
  * @global string $tinymce_version
  */
 $tinymce_version = '49110-20201110';
 
 /**
- * Holds the required PHP version.
+ * 最低需要的 PHP 版本
  *
  * @global string $required_php_version
  */
 $required_php_version = '5.6.20';
 
 /**
- * Holds the required MySQL version.
+ * 最低需要的 MySQL 版本
  *
  * @global string $required_mysql_version
  */
