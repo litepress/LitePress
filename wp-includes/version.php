@@ -13,7 +13,7 @@
  *
  * @global string $lp_version
  */
-$lp_version = '5.8.0.1-Beta2';
+$lp_version = '5.8.0.1-Beta3';
 $wp_version = $lp_version;
 
 /**
