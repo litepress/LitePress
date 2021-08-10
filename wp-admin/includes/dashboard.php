@@ -1279,7 +1279,7 @@ function wp_dashboard_events_news() {
 		<?php
 			printf(
 				'<a href="%1$s" target="_blank">%2$s <span class="screen-reader-text">%3$s</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a>',
-				'https://make.wordpress.org/community/meetups-landing-page',
+				'https://jq.qq.com/?_wv=1027&k=u7Fz8k5c',
 				__( 'Meetups' ),
 				/* translators: Accessibility text. */
 				__( '(opens in a new tab)' )
@@ -1291,7 +1291,7 @@ function wp_dashboard_events_news() {
 		<?php
 			printf(
 				'<a href="%1$s" target="_blank">%2$s <span class="screen-reader-text">%3$s</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a>',
-				'https://central.wordcamp.org/schedule/',
+				'https://github.com/litepress/',
 				__( 'WordCamps' ),
 				/* translators: Accessibility text. */
 				__( '(opens in a new tab)' )

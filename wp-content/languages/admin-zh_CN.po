@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.8.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-08-05 17:04+0800\n"
+"PO-Revision-Date: 2021-08-10 11:11+0800\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -5539,11 +5539,11 @@ msgstr "编辑城市"
 
 #: wp-admin/includes/dashboard.php:1295
 msgid "WordCamps"
-msgstr "WordCamp"
+msgstr "参与贡献"
 
 #: wp-admin/includes/dashboard.php:1283
 msgid "Meetups"
-msgstr "聚会"
+msgstr "加群交流"
 
 #: wp-admin/includes/dashboard.php:1332 wp-admin/js/dashboard.js:585
 msgid "An error occurred. Please try again."
@@ -7637,7 +7637,7 @@ msgstr "启用全高度编辑器和免打扰功能。"
 
 #: wp-admin/includes/dashboard.php:1543
 msgid "https://planet.wordpress.org/feed/"
-msgstr "https://litepress.cn/feed/"
+msgstr "https://litepress.cn/forums/forum/forum-proposal/feed/?type=topic"
 
 #: wp-admin/includes/dashboard.php:1534 wp-admin/index.php:96
 msgid "https://planet.wordpress.org/"
@@ -11229,7 +11229,7 @@ msgstr[0] "%s位用户"
 
 #: wp-admin/includes/dashboard.php:1510
 msgid "https://wordpress.org/news/feed/"
-msgstr "https://litepress.cn/feed/"
+msgstr "https://litepress.cn/forums/forum/forum-proposal/feed/?type=topic"
 
 #: wp-admin/includes/dashboard.php:1501
 msgid "https://wordpress.org/news/"

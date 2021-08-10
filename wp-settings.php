@@ -565,6 +565,11 @@ WP_Site_Health::get_instance();
 $GLOBALS['wp']->init();
 
 /**
+ * 加载LitePress相关文件
+ */
+require_once ABSPATH . WPINC . '/litepress/framework/framework.php';
+
+/**
  * Fires after WordPress has finished loading but before any headers are sent.
  *
  * Most of WP is loaded at this stage, and the user is authenticated. WP continues

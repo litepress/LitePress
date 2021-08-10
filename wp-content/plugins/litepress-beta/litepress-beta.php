@@ -4,10 +4,12 @@
  * Description: 启用此插件以参加LitePress Beta版本测试
  * Author: 老孙穿女装
  * Author URI: https://litepress.cn/user/jerry/
- * Version: 2.0.0
- * License: GPLv2
- * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Version: 2.2.0
+ * License: GPLv3
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  */
+
+namespace LitePress\Beta;
 
 function lp_filter_http_request( $result, $args, $url ) {
 		
@@ -23,4 +25,4 @@ function lp_filter_http_request( $result, $args, $url ) {
 
 		return wp_remote_get( $url, $args );
 }
-add_filter( 'pre_http_request', 'lp_filter_http_request', 10, 3 );
+add_filter( 'pre_http_request', '\LitePress\Beta\lp_filter_http_request', 10, 3 );
