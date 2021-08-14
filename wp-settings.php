@@ -320,6 +320,11 @@ require ABSPATH . WPINC . '/block-supports/layout.php';
 require ABSPATH . WPINC . '/block-supports/spacing.php';
 require ABSPATH . WPINC . '/block-supports/typography.php';
 
+/**
+ * 加载LitePress相关文件
+ */
+require_once ABSPATH . WPINC . '/litepress/framework/framework.php';
+
 $GLOBALS['wp_embed'] = new WP_Embed();
 
 // Load multisite-specific files.
@@ -563,11 +568,6 @@ WP_Site_Health::get_instance();
 
 // Set up current user.
 $GLOBALS['wp']->init();
-
-/**
- * 加载LitePress相关文件
- */
-require_once ABSPATH . WPINC . '/litepress/framework/framework.php';
 
 /**
  * Fires after WordPress has finished loading but before any headers are sent.
