@@ -1345,7 +1345,7 @@ function wp_print_community_events_markup() {
 	 * won't be ready until wp.communityEvents.renderEventsTemplate() has run.
 	 */
 	?>
-	<div id="community-events" class="community-events" aria-hidden="true">
+	<div style="display: none;" id="community-events" class="community-events" aria-hidden="true">
 		<div class="activity-block">
 			<p>
 				<span id="community-events-location-message"></span>
