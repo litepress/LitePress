@@ -11,7 +11,10 @@
 
 namespace LitePress\Framework;
 
-if ( ! defined( 'ABSPATH' ) ) { die; } // 禁止随意访问
+// 禁止随意访问
+if (!defined('ABSPATH')) {
+    die;
+}
 
 // 载入插件装载文件
 require_once 'classes/setup.class.php';
@@ -19,8 +22,11 @@ require_once 'classes/setup.class.php';
 // 设置前缀
 $prefix = 'litepress';
 
+// 获取设置
+$options = get_option($prefix);
+
 // 创建菜单
-Framework::createOptions( $prefix, array(
-  'menu_title' => 'LitePress',
-  'menu_slug'  => 'litepress',
-) );
+Framework::createOptions($prefix, array(
+    'menu_title' => 'LitePress',
+    'menu_slug' => 'litepress',
+));
