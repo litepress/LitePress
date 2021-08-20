@@ -36,11 +36,11 @@ if ( ! class_exists( 'CSF_Field_link_color' ) ) {
       );
 
       $color_props = array(
-        'color'    => esc_html__( 'Normal', 'csf' ),
-        'hover'    => esc_html__( 'Hover', 'csf' ),
-        'active'   => esc_html__( 'Active', 'csf' ),
-        'visited'  => esc_html__( 'Visited', 'csf' ),
-        'focus'    => esc_html__( 'Focus', 'csf' )
+        'color'    => esc_html__( 'Normal', 'lp-framework' ),
+        'hover'    => esc_html__( 'Hover', 'lp-framework' ),
+        'active'   => esc_html__( 'Active', 'lp-framework' ),
+        'visited'  => esc_html__( 'Visited', 'lp-framework' ),
+        'focus'    => esc_html__( 'Focus', 'lp-framework' )
       );
 
       $value = wp_parse_args( $this->value, $default_values );

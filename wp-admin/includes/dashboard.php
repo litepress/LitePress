@@ -1517,51 +1517,10 @@ function wp_dashboard_primary() {
 			 * @param string $title Title attribute for the widget's primary link.
 			 */
 			'title'        => apply_filters( 'dashboard_primary_title', __( 'WordPress Blog' ) ),
-			'items'        => 2,
+			'items'        => 10,
 			'show_summary' => 0,
 			'show_author'  => 0,
-			'show_date'    => 0,
-		),
-		'planet' => array(
-
-			/**
-			 * Filters the secondary link URL for the 'WordPress Events and News' dashboard widget.
-			 *
-			 * @since 2.3.0
-			 *
-			 * @param string $link The widget's secondary link URL.
-			 */
-			'link'         => apply_filters( 'dashboard_secondary_link', __( 'https://planet.wordpress.org/' ) ),
-
-			/**
-			 * Filters the secondary feed URL for the 'WordPress Events and News' dashboard widget.
-			 *
-			 * @since 2.3.0
-			 *
-			 * @param string $url The widget's secondary feed URL.
-			 */
-			'url'          => apply_filters( 'dashboard_secondary_feed', __( 'https://planet.wordpress.org/feed/' ) ),
-
-			/**
-			 * Filters the secondary link title for the 'WordPress Events and News' dashboard widget.
-			 *
-			 * @since 2.3.0
-			 *
-			 * @param string $title Title attribute for the widget's secondary link.
-			 */
-			'title'        => apply_filters( 'dashboard_secondary_title', __( 'Other WordPress News' ) ),
-
-			/**
-			 * Filters the number of secondary link items for the 'WordPress Events and News' dashboard widget.
-			 *
-			 * @since 4.4.0
-			 *
-			 * @param string $items How many items to show in the secondary feed.
-			 */
-			'items'        => apply_filters( 'dashboard_secondary_items', 3 ),
-			'show_summary' => 0,
-			'show_author'  => 0,
-			'show_date'    => 0,
+			'show_date'    => 1,
 		),
 	);
 

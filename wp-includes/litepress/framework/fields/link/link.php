@@ -20,9 +20,9 @@ if ( ! class_exists( 'CSF_Field_link' ) ) {
     public function render() {
 
       $args = wp_parse_args( $this->field, array(
-        'add_title'    => esc_html__( 'Add Link', 'csf' ),
-        'edit_title'   => esc_html__( 'Edit Link', 'csf' ),
-        'remove_title' => esc_html__( 'Remove Link', 'csf' ),
+        'add_title'    => esc_html__( 'Add Link', 'lp-framework' ),
+        'edit_title'   => esc_html__( 'Edit Link', 'lp-framework' ),
+        'remove_title' => esc_html__( 'Remove Link', 'lp-framework' ),
       ) );
 
       $default_values = array(

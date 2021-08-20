@@ -36,7 +36,7 @@ if ( ! class_exists( 'CSF_Field_background' ) ) {
         'background_auto_attributes'    => false,
         'compact'                       => false,
         'background_image_library'      => 'image',
-        'background_image_placeholder'  => esc_html__( 'Not selected', 'csf' ),
+        'background_image_placeholder'  => esc_html__( 'Not selected', 'lp-framework' ),
       ) );
 
       if ( $args['compact'] ) {
@@ -72,7 +72,7 @@ if ( ! class_exists( 'CSF_Field_background' ) ) {
 
         echo '<div class="csf--color">';
 
-        echo ( ! empty( $args['background_gradient'] ) ) ? '<div class="csf--title">'. esc_html__( 'From', 'csf' ) .'</div>' : '';
+        echo ( ! empty( $args['background_gradient'] ) ) ? '<div class="csf--title">'. esc_html__( 'From', 'lp-framework' ) .'</div>' : '';
 
         Framework::field( array(
           'id'      => 'background-color',
@@ -90,7 +90,7 @@ if ( ! class_exists( 'CSF_Field_background' ) ) {
 
         echo '<div class="csf--color">';
 
-        echo ( ! empty( $args['background_gradient'] ) ) ? '<div class="csf--title">'. esc_html__( 'To', 'csf' ) .'</div>' : '';
+        echo ( ! empty( $args['background_gradient'] ) ) ? '<div class="csf--title">'. esc_html__( 'To', 'lp-framework' ) .'</div>' : '';
 
         Framework::field( array(
           'id'      => 'background-gradient-color',
@@ -108,17 +108,17 @@ if ( ! class_exists( 'CSF_Field_background' ) ) {
 
         echo '<div class="csf--color">';
 
-        echo ( ! empty( $args['background_gradient'] ) ) ? '<div class="csf---title">'. esc_html__( 'Direction', 'csf' ) .'</div>' : '';
+        echo ( ! empty( $args['background_gradient'] ) ) ? '<div class="csf---title">'. esc_html__( 'Direction', 'lp-framework' ) .'</div>' : '';
 
         Framework::field( array(
           'id'          => 'background-gradient-direction',
           'type'        => 'select',
           'options'     => array(
-            ''          => esc_html__( 'Gradient Direction', 'csf' ),
-            'to bottom' => esc_html__( '&#8659; top to bottom', 'csf' ),
-            'to right'  => esc_html__( '&#8658; left to right', 'csf' ),
-            '135deg'    => esc_html__( '&#8664; corner top to right', 'csf' ),
-            '-135deg'   => esc_html__( '&#8665; corner top to left', 'csf' ),
+            ''          => esc_html__( 'Gradient Direction', 'lp-framework' ),
+            'to bottom' => esc_html__( '&#8659; top to bottom', 'lp-framework' ),
+            'to right'  => esc_html__( '&#8658; left to right', 'lp-framework' ),
+            '135deg'    => esc_html__( '&#8664; corner top to right', 'lp-framework' ),
+            '-135deg'   => esc_html__( '&#8665; corner top to left', 'lp-framework' ),
           ),
         ), $this->value['background-gradient-direction'], $this->field_name(), 'field/background' );
 
@@ -161,16 +161,16 @@ if ( ! class_exists( 'CSF_Field_background' ) ) {
           'id'              => 'background-position',
           'type'            => 'select',
           'options'         => array(
-            ''              => esc_html__( 'Background Position', 'csf' ),
-            'left top'      => esc_html__( 'Left Top', 'csf' ),
-            'left center'   => esc_html__( 'Left Center', 'csf' ),
-            'left bottom'   => esc_html__( 'Left Bottom', 'csf' ),
-            'center top'    => esc_html__( 'Center Top', 'csf' ),
-            'center center' => esc_html__( 'Center Center', 'csf' ),
-            'center bottom' => esc_html__( 'Center Bottom', 'csf' ),
-            'right top'     => esc_html__( 'Right Top', 'csf' ),
-            'right center'  => esc_html__( 'Right Center', 'csf' ),
-            'right bottom'  => esc_html__( 'Right Bottom', 'csf' ),
+            ''              => esc_html__( 'Background Position', 'lp-framework' ),
+            'left top'      => esc_html__( 'Left Top', 'lp-framework' ),
+            'left center'   => esc_html__( 'Left Center', 'lp-framework' ),
+            'left bottom'   => esc_html__( 'Left Bottom', 'lp-framework' ),
+            'center top'    => esc_html__( 'Center Top', 'lp-framework' ),
+            'center center' => esc_html__( 'Center Center', 'lp-framework' ),
+            'center bottom' => esc_html__( 'Center Bottom', 'lp-framework' ),
+            'right top'     => esc_html__( 'Right Top', 'lp-framework' ),
+            'right center'  => esc_html__( 'Right Center', 'lp-framework' ),
+            'right bottom'  => esc_html__( 'Right Bottom', 'lp-framework' ),
           ),
         ), $this->value['background-position'], $this->field_name(), 'field/background' );
 
@@ -184,11 +184,11 @@ if ( ! class_exists( 'CSF_Field_background' ) ) {
           'id'          => 'background-repeat',
           'type'        => 'select',
           'options'     => array(
-            ''          => esc_html__( 'Background Repeat', 'csf' ),
-            'repeat'    => esc_html__( 'Repeat', 'csf' ),
-            'no-repeat' => esc_html__( 'No Repeat', 'csf' ),
-            'repeat-x'  => esc_html__( 'Repeat Horizontally', 'csf' ),
-            'repeat-y'  => esc_html__( 'Repeat Vertically', 'csf' ),
+            ''          => esc_html__( 'Background Repeat', 'lp-framework' ),
+            'repeat'    => esc_html__( 'Repeat', 'lp-framework' ),
+            'no-repeat' => esc_html__( 'No Repeat', 'lp-framework' ),
+            'repeat-x'  => esc_html__( 'Repeat Horizontally', 'lp-framework' ),
+            'repeat-y'  => esc_html__( 'Repeat Vertically', 'lp-framework' ),
           ),
         ), $this->value['background-repeat'], $this->field_name(), 'field/background' );
 
@@ -202,9 +202,9 @@ if ( ! class_exists( 'CSF_Field_background' ) ) {
           'id'       => 'background-attachment',
           'type'     => 'select',
           'options'  => array(
-            ''       => esc_html__( 'Background Attachment', 'csf' ),
-            'scroll' => esc_html__( 'Scroll', 'csf' ),
-            'fixed'  => esc_html__( 'Fixed', 'csf' ),
+            ''       => esc_html__( 'Background Attachment', 'lp-framework' ),
+            'scroll' => esc_html__( 'Scroll', 'lp-framework' ),
+            'fixed'  => esc_html__( 'Fixed', 'lp-framework' ),
           ),
         ), $this->value['background-attachment'], $this->field_name(), 'field/background' );
 
@@ -218,10 +218,10 @@ if ( ! class_exists( 'CSF_Field_background' ) ) {
           'id'        => 'background-size',
           'type'      => 'select',
           'options'   => array(
-            ''        => esc_html__( 'Background Size', 'csf' ),
-            'cover'   => esc_html__( 'Cover', 'csf' ),
-            'contain' => esc_html__( 'Contain', 'csf' ),
-            'auto'    => esc_html__( 'Auto', 'csf' ),
+            ''        => esc_html__( 'Background Size', 'lp-framework' ),
+            'cover'   => esc_html__( 'Cover', 'lp-framework' ),
+            'contain' => esc_html__( 'Contain', 'lp-framework' ),
+            'auto'    => esc_html__( 'Auto', 'lp-framework' ),
           ),
         ), $this->value['background-size'], $this->field_name(), 'field/background' );
 
@@ -235,10 +235,10 @@ if ( ! class_exists( 'CSF_Field_background' ) ) {
           'id'            => 'background-origin',
           'type'          => 'select',
           'options'       => array(
-            ''            => esc_html__( 'Background Origin', 'csf' ),
-            'padding-box' => esc_html__( 'Padding Box', 'csf' ),
-            'border-box'  => esc_html__( 'Border Box', 'csf' ),
-            'content-box' => esc_html__( 'Content Box', 'csf' ),
+            ''            => esc_html__( 'Background Origin', 'lp-framework' ),
+            'padding-box' => esc_html__( 'Padding Box', 'lp-framework' ),
+            'border-box'  => esc_html__( 'Border Box', 'lp-framework' ),
+            'content-box' => esc_html__( 'Content Box', 'lp-framework' ),
           ),
         ), $this->value['background-origin'], $this->field_name(), 'field/background' );
 
@@ -252,10 +252,10 @@ if ( ! class_exists( 'CSF_Field_background' ) ) {
           'id'            => 'background-clip',
           'type'          => 'select',
           'options'       => array(
-            ''            => esc_html__( 'Background Clip', 'csf' ),
-            'border-box'  => esc_html__( 'Border Box', 'csf' ),
-            'padding-box' => esc_html__( 'Padding Box', 'csf' ),
-            'content-box' => esc_html__( 'Content Box', 'csf' ),
+            ''            => esc_html__( 'Background Clip', 'lp-framework' ),
+            'border-box'  => esc_html__( 'Border Box', 'lp-framework' ),
+            'padding-box' => esc_html__( 'Padding Box', 'lp-framework' ),
+            'content-box' => esc_html__( 'Content Box', 'lp-framework' ),
           ),
         ), $this->value['background-clip'], $this->field_name(), 'field/background' );
 
@@ -269,17 +269,17 @@ if ( ! class_exists( 'CSF_Field_background' ) ) {
           'id'            => 'background-blend-mode',
           'type'          => 'select',
           'options'       => array(
-            ''            => esc_html__( 'Background Blend Mode', 'csf' ),
-            'normal'      => esc_html__( 'Normal', 'csf' ),
-            'multiply'    => esc_html__( 'Multiply', 'csf' ),
-            'screen'      => esc_html__( 'Screen', 'csf' ),
-            'overlay'     => esc_html__( 'Overlay', 'csf' ),
-            'darken'      => esc_html__( 'Darken', 'csf' ),
-            'lighten'     => esc_html__( 'Lighten', 'csf' ),
-            'color-dodge' => esc_html__( 'Color Dodge', 'csf' ),
-            'saturation'  => esc_html__( 'Saturation', 'csf' ),
-            'color'       => esc_html__( 'Color', 'csf' ),
-            'luminosity'  => esc_html__( 'Luminosity', 'csf' ),
+            ''            => esc_html__( 'Background Blend Mode', 'lp-framework' ),
+            'normal'      => esc_html__( 'Normal', 'lp-framework' ),
+            'multiply'    => esc_html__( 'Multiply', 'lp-framework' ),
+            'screen'      => esc_html__( 'Screen', 'lp-framework' ),
+            'overlay'     => esc_html__( 'Overlay', 'lp-framework' ),
+            'darken'      => esc_html__( 'Darken', 'lp-framework' ),
+            'lighten'     => esc_html__( 'Lighten', 'lp-framework' ),
+            'color-dodge' => esc_html__( 'Color Dodge', 'lp-framework' ),
+            'saturation'  => esc_html__( 'Saturation', 'lp-framework' ),
+            'color'       => esc_html__( 'Color', 'lp-framework' ),
+            'luminosity'  => esc_html__( 'Luminosity', 'lp-framework' ),
           ),
         ), $this->value['background-blend-mode'], $this->field_name(), 'field/background' );
 

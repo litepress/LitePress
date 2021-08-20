@@ -24,8 +24,8 @@ if ( ! class_exists( 'CSF_Field_upload' ) ) {
         'preview'        => false,
         'preview_width'  => '',
         'preview_height' => '',
-        'button_title'   => esc_html__( 'Upload', 'csf' ),
-        'remove_title'   => esc_html__( 'Remove', 'csf' ),
+        'button_title'   => esc_html__( 'Upload', 'lp-framework' ),
+        'remove_title'   => esc_html__( 'Remove', 'lp-framework' ),
       ) );
 
       echo $this->field_before();

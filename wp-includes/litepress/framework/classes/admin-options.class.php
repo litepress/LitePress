@@ -228,7 +228,7 @@ if ( ! class_exists( CSF_Options::class ) ) {
       $result = $this->set_options( true );
 
       if ( ! $result ) {
-        wp_send_json_error( array( 'error' => esc_html__( 'Error while saving the changes.', 'csf' ) ) );
+        wp_send_json_error( array( 'error' => esc_html__( 'Error while saving the changes.', 'lp-framework' ) ) );
       } else {
         wp_send_json_success( array( 'notice' => $this->notice, 'errors' => $this->errors ) );
       }
@@ -288,7 +288,7 @@ if ( ! class_exists( CSF_Options::class ) ) {
           $import_data  = json_decode( wp_unslash( trim( $response[ 'csf_import_data' ] ) ), true );
           $options      = ( is_array( $import_data ) && ! empty( $import_data ) ) ? $import_data : array();
           $importing    = true;
-          $this->notice = esc_html__( 'Settings successfully imported.', 'csf' );
+          $this->notice = esc_html__( 'Settings successfully imported.', 'lp-framework' );
 
         }
 
@@ -300,7 +300,7 @@ if ( ! class_exists( CSF_Options::class ) ) {
             }
           }
 
-          $this->notice = esc_html__( 'Default settings restored.', 'csf' );
+          $this->notice = esc_html__( 'Default settings restored.', 'lp-framework' );
 
         } else if ( ! empty( $transient['reset_section'] ) && ! empty( $section_id ) ) {
 
@@ -316,7 +316,7 @@ if ( ! class_exists( CSF_Options::class ) ) {
 
           $data = wp_parse_args( $data, $this->options );
 
-          $this->notice = esc_html__( 'Default settings restored.', 'csf' );
+          $this->notice = esc_html__( 'Default settings restored.', 'lp-framework' );
 
         } else {
 
@@ -387,7 +387,7 @@ if ( ! class_exists( CSF_Options::class ) ) {
         do_action( "csf_{$this->unique}_save_after", $data, $this );
 
         if ( empty( $this->notice ) ) {
-          $this->notice = esc_html__( 'Settings saved.', 'csf' );
+          $this->notice = esc_html__( 'Settings saved.', 'lp-framework' );
         }
 
         return true;
@@ -531,7 +531,8 @@ if ( ! class_exists( CSF_Options::class ) ) {
     // option page html output
     public function add_options_html() {
 
-      $has_nav       = ( count( $this->pre_tabs ) > 1 ) ? true : false;
+      // 强制打开nav
+      $has_nav       = true;
       $show_all      = ( ! $has_nav ) ? ' csf-show-all' : '';
       $ajax_class    = ( $this->args['ajax_save'] ) ? ' csf-save-ajax' : '';
       $sticky_class  = ( $this->args['sticky_header'] ) ? ' csf-sticky-header' : '';
@@ -567,16 +568,16 @@ if ( ! class_exists( CSF_Options::class ) ) {
 
             echo '<div class="csf-form-result csf-form-success '. esc_attr( $notice_class ) .'">'. $notice_text .'</div>';
 
-            echo ( $this->args['show_form_warning'] ) ? '<div class="csf-form-result csf-form-warning">'. esc_html__( 'You have unsaved changes, save your changes!', 'csf' ) .'</div>' : '';
+            echo ( $this->args['show_form_warning'] ) ? '<div class="csf-form-result csf-form-warning">'. esc_html__( 'You have unsaved changes, save your changes!', 'lp-framework' ) .'</div>' : '';
 
-            echo ( $has_nav && $this->args['show_all_options'] ) ? '<div class="csf-expand-all" title="'. esc_html__( 'show all settings', 'csf' ) .'"><i class="fas fa-outdent"></i></div>' : '';
+            echo ( $has_nav && $this->args['show_all_options'] ) ? '<div class="csf-expand-all" title="'. esc_html__( 'show all settings', 'lp-framework' ) .'"><i class="fas fa-outdent"></i></div>' : '';
 
-            echo ( $this->args['show_search'] ) ? '<div class="csf-search"><input type="text" name="csf-search" placeholder="'. esc_html__( 'Search...', 'csf' ) .'" autocomplete="off" /></div>' : '';
+            echo ( $this->args['show_search'] ) ? '<div class="csf-search"><input type="text" name="csf-search" placeholder="'. esc_html__( 'Search...', 'lp-framework' ) .'" autocomplete="off" /></div>' : '';
 
             echo '<div class="csf-buttons">';
-            echo '<input type="submit" name="'. esc_attr( $this->unique ) .'[_nonce][save]" class="button button-primary csf-top-save csf-save'. esc_attr( $ajax_class ) .'" value="'. esc_html__( 'Save', 'csf' ) .'" data-save="'. esc_html__( 'Saving...', 'csf' ) .'">';
-            echo ( $this->args['show_reset_section'] ) ? '<input type="submit" name="csf_transient[reset_section]" class="button button-secondary csf-reset-section csf-confirm" value="'. esc_html__( 'Reset Section', 'csf' ) .'" data-confirm="'. esc_html__( 'Are you sure to reset this section options?', 'csf' ) .'">' : '';
-            echo ( $this->args['show_reset_all'] ) ? '<input type="submit" name="csf_transient[reset]" class="button csf-warning-primary csf-reset-all csf-confirm" value="'. ( ( $this->args['show_reset_section'] ) ? esc_html__( 'Reset All', 'csf' ) : esc_html__( 'Reset', 'csf' ) ) .'" data-confirm="'. esc_html__( 'Are you sure you want to reset all settings to default values?', 'csf' ) .'">' : '';
+            echo '<input type="submit" name="'. esc_attr( $this->unique ) .'[_nonce][save]" class="button button-primary csf-top-save csf-save'. esc_attr( $ajax_class ) .'" value="'. esc_html__( 'Save', 'lp-framework' ) .'" data-save="'. esc_html__( 'Saving...', 'lp-framework' ) .'">';
+            echo ( $this->args['show_reset_section'] ) ? '<input type="submit" name="csf_transient[reset_section]" class="button button-secondary csf-reset-section csf-confirm" value="'. esc_html__( 'Reset Section', 'lp-framework' ) .'" data-confirm="'. esc_html__( 'Are you sure to reset this section options?', 'lp-framework' ) .'">' : '';
+            echo ( $this->args['show_reset_all'] ) ? '<input type="submit" name="csf_transient[reset]" class="button csf-warning-primary csf-reset-all csf-confirm" value="'. ( ( $this->args['show_reset_section'] ) ? esc_html__( 'Reset All', 'lp-framework' ) : esc_html__( 'Reset', 'lp-framework' ) ) .'" data-confirm="'. esc_html__( 'Are you sure you want to reset all settings to default values?', 'lp-framework' ) .'">' : '';
             echo '</div>';
 
           echo '</div>';
@@ -674,7 +675,7 @@ if ( ! class_exists( CSF_Options::class ) ) {
 
               } else {
 
-                echo '<div class="csf-no-option">'. esc_html__( 'No data available.', 'csf' ) .'</div>';
+                echo '<div class="csf-no-option">'. esc_html__( 'No data available.', 'lp-framework' ) .'</div>';
 
               }
 
@@ -697,9 +698,9 @@ if ( ! class_exists( CSF_Options::class ) ) {
           echo '<div class="csf-footer">';
 
           echo '<div class="csf-buttons">';
-          echo '<input type="submit" name="csf_transient[save]" class="button button-primary csf-save'. esc_attr( $ajax_class ) .'" value="'. esc_html__( 'Save', 'csf' ) .'" data-save="'. esc_html__( 'Saving...', 'csf' ) .'">';
-          echo ( $this->args['show_reset_section'] ) ? '<input type="submit" name="csf_transient[reset_section]" class="button button-secondary csf-reset-section csf-confirm" value="'. esc_html__( 'Reset Section', 'csf' ) .'" data-confirm="'. esc_html__( 'Are you sure to reset this section options?', 'csf' ) .'">' : '';
-          echo ( $this->args['show_reset_all'] ) ? '<input type="submit" name="csf_transient[reset]" class="button csf-warning-primary csf-reset-all csf-confirm" value="'. ( ( $this->args['show_reset_section'] ) ? esc_html__( 'Reset All', 'csf' ) : esc_html__( 'Reset', 'csf' ) ) .'" data-confirm="'. esc_html__( 'Are you sure you want to reset all settings to default values?', 'csf' ) .'">' : '';
+          echo '<input type="submit" name="csf_transient[save]" class="button button-primary csf-save'. esc_attr( $ajax_class ) .'" value="'. esc_html__( 'Save', 'lp-framework' ) .'" data-save="'. esc_html__( 'Saving...', 'lp-framework' ) .'">';
+          echo ( $this->args['show_reset_section'] ) ? '<input type="submit" name="csf_transient[reset_section]" class="button button-secondary csf-reset-section csf-confirm" value="'. esc_html__( 'Reset Section', 'lp-framework' ) .'" data-confirm="'. esc_html__( 'Are you sure to reset this section options?', 'lp-framework' ) .'">' : '';
+          echo ( $this->args['show_reset_all'] ) ? '<input type="submit" name="csf_transient[reset]" class="button csf-warning-primary csf-reset-all csf-confirm" value="'. ( ( $this->args['show_reset_section'] ) ? esc_html__( 'Reset All', 'lp-framework' ) : esc_html__( 'Reset', 'lp-framework' ) ) .'" data-confirm="'. esc_html__( 'Are you sure you want to reset all settings to default values?', 'lp-framework' ) .'">' : '';
           echo '</div>';
 
           echo ( ! empty( $this->args['footer_text'] ) ) ? '<div class="csf-copyright">'. $this->args['footer_text'] .'</div>' : '';

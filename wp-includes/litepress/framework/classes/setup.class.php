@@ -459,7 +459,7 @@ if ( ! class_exists( Framework::class ) ) {
 
     // Setup textdomain
     public static function textdomain() {
-      load_textdomain( 'csf', self::$dir .'/languages/'. get_locale() .'.mo' );
+      load_textdomain( 'lp-framework', self::$dir .'/languages/'. get_locale() .'.mo' );
     }
 
     // Set all of used fields
@@ -591,10 +591,10 @@ if ( ! class_exists( Framework::class ) ) {
       wp_localize_script( 'csf', 'csf_vars', array(
         'color_palette'     => apply_filters( 'csf_color_palette', array() ),
         'i18n'              => array(
-          'confirm'         => esc_html__( 'Are you sure?', 'csf' ),
-          'typing_text'     => esc_html__( 'Please enter %s or more characters', 'csf' ),
-          'searching_text'  => esc_html__( 'Searching...', 'csf' ),
-          'no_results_text' => esc_html__( 'No results found.', 'csf' ),
+          'confirm'         => esc_html__( 'Are you sure?', 'lp-framework' ),
+          'typing_text'     => esc_html__( 'Please enter %s or more characters', 'lp-framework' ),
+          'searching_text'  => esc_html__( 'Searching...', 'lp-framework' ),
+          'no_results_text' => esc_html__( 'No results found.', 'lp-framework' ),
         ),
       ) );
 
@@ -695,7 +695,7 @@ if ( ! class_exists( Framework::class ) ) {
         $field_type = $field['type'];
 
         $field            = array();
-        $field['content'] = esc_html__( 'Oops! Not allowed.', 'csf' ) .' <strong>('. $field_type .')</strong>';
+        $field['content'] = esc_html__( 'Oops! Not allowed.', 'lp-framework' ) .' <strong>('. $field_type .')</strong>';
         $field['type']    = 'notice';
         $field['style']   = 'danger';
 
@@ -767,11 +767,11 @@ if ( ! class_exists( Framework::class ) ) {
           $instance = new $classname( $field, $value, $unique, $where, $parent );
           $instance->render();
         } else {
-          echo '<p>'. esc_html__( 'Field not found!', 'csf' ) .'</p>';
+          echo '<p>'. esc_html__( 'Field not found!', 'lp-framework' ) .'</p>';
         }
 
       } else {
-        echo '<p>'. esc_html__( 'Field not found!', 'csf' ) .'</p>';
+        echo '<p>'. esc_html__( 'Field not found!', 'lp-framework' ) .'</p>';
       }
 
       echo ( ! empty( $field['title'] ) || ! empty( $field['fancy_title'] ) ) ? '</div>' : '';

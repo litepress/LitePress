@@ -22,8 +22,8 @@ if ( ! class_exists( 'CSF_Field_dimensions' ) ) {
       $args = wp_parse_args( $this->field, array(
         'width_icon'         => '<i class="fas fa-arrows-alt-h"></i>',
         'height_icon'        => '<i class="fas fa-arrows-alt-v"></i>',
-        'width_placeholder'  => esc_html__( 'width', 'csf' ),
-        'height_placeholder' => esc_html__( 'height', 'csf' ),
+        'width_placeholder'  => esc_html__( 'width', 'lp-framework' ),
+        'height_placeholder' => esc_html__( 'height', 'lp-framework' ),
         'width'              => true,
         'height'             => true,
         'unit'               => true,

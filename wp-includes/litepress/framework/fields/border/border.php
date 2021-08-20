@@ -25,11 +25,11 @@ if ( ! class_exists( 'CSF_Field_border' ) ) {
         'bottom_icon'        => '<i class="fas fa-long-arrow-alt-down"></i>',
         'right_icon'         => '<i class="fas fa-long-arrow-alt-right"></i>',
         'all_icon'           => '<i class="fas fa-arrows-alt"></i>',
-        'top_placeholder'    => esc_html__( 'top', 'csf' ),
-        'right_placeholder'  => esc_html__( 'right', 'csf' ),
-        'bottom_placeholder' => esc_html__( 'bottom', 'csf' ),
-        'left_placeholder'   => esc_html__( 'left', 'csf' ),
-        'all_placeholder'    => esc_html__( 'all', 'csf' ),
+        'top_placeholder'    => esc_html__( 'top', 'lp-framework' ),
+        'right_placeholder'  => esc_html__( 'right', 'lp-framework' ),
+        'bottom_placeholder' => esc_html__( 'bottom', 'lp-framework' ),
+        'left_placeholder'   => esc_html__( 'left', 'lp-framework' ),
+        'all_placeholder'    => esc_html__( 'all', 'lp-framework' ),
         'top'                => true,
         'left'               => true,
         'bottom'             => true,
@@ -51,15 +51,15 @@ if ( ! class_exists( 'CSF_Field_border' ) ) {
       );
 
       $border_props = array(
-        'solid'     => esc_html__( 'Solid', 'csf' ),
-        'dashed'    => esc_html__( 'Dashed', 'csf' ),
-        'dotted'    => esc_html__( 'Dotted', 'csf' ),
-        'double'    => esc_html__( 'Double', 'csf' ),
-        'inset'     => esc_html__( 'Inset', 'csf' ),
-        'outset'    => esc_html__( 'Outset', 'csf' ),
-        'groove'    => esc_html__( 'Groove', 'csf' ),
-        'ridge'     => esc_html__( 'ridge', 'csf' ),
-        'none'      => esc_html__( 'None', 'csf' )
+        'solid'     => esc_html__( 'Solid', 'lp-framework' ),
+        'dashed'    => esc_html__( 'Dashed', 'lp-framework' ),
+        'dotted'    => esc_html__( 'Dotted', 'lp-framework' ),
+        'double'    => esc_html__( 'Double', 'lp-framework' ),
+        'inset'     => esc_html__( 'Inset', 'lp-framework' ),
+        'outset'    => esc_html__( 'Outset', 'lp-framework' ),
+        'groove'    => esc_html__( 'Groove', 'lp-framework' ),
+        'ridge'     => esc_html__( 'ridge', 'lp-framework' ),
+        'none'      => esc_html__( 'None', 'lp-framework' )
       );
 
       $default_value = ( ! empty( $this->field['default'] ) ) ? wp_parse_args( $this->field['default'], $default_value ) : $default_value;
