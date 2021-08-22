@@ -549,8 +549,9 @@ if ( ! class_exists( Framework::class ) ) {
         self::$enqueue = true;
       }
 
-      if ( $wpscreen->id === 'tools_page_csf-welcome' ) {
-        self::$enqueue = true;
+      // 设置多站点设置页加载
+      if ( $wpscreen->id === 'toplevel_page_litepress-network' ) {
+      	self::$enqueue = true;
       }
 
       if ( ! apply_filters( 'csf_enqueue_assets', self::$enqueue ) ) {

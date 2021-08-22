@@ -13,7 +13,7 @@
  *
  * @global string $lp_version
  */
-$lp_version = '5.8.0.1-RC3';
+$lp_version = '5.8.0.1-RC4「中元」';
 $wp_version = $lp_version;
 
 /**
