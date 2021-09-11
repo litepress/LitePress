@@ -13,7 +13,7 @@
  *
  * @global string $lp_version
  */
-$lp_version = '5.8 Final';
+$lp_version = '5.8.1.1';
 $wp_version = $lp_version;
 
 /**
@@ -44,3 +44,5 @@ $required_php_version = '5.6.20';
  * @global string $required_mysql_version
  */
 $required_mysql_version = '5.0';
+
+$wp_local_package = 'zh_CN';

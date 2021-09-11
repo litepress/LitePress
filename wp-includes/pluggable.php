@@ -370,7 +370,7 @@ if ( ! function_exists( 'wp_mail' ) ) :
 		}
 
 		/*
-		 * 濡傛灉杈撳叆涓病鏈夐偖绠卞湴鍧�锛岄粯璁ゅ皢浼氭槸litepress@$sitename
+		 * 如果输入中没有邮箱地址，默认将会是litepress@$sitename
 		 * Some hosts will block outgoing mail from this address if it doesn't exist,
 		 * but there's no easy alternative. Defaulting to admin_email might appear to be
 		 * another option, but some hosts may refuse to relay mail from an unknown domain.

@@ -2,17 +2,14 @@
 # This file is distributed under the same license as the WordPress - 5.8.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-08-05 17:04+0800\n"
+"PO-Revision-Date: 2021-07-19 02:03:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: zh_CN\n"
 "Project-Id-Version: WordPress - 5.8.x - Development - Administration - Network Admin\n"
-"POT-Creation-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
 
 #. translators: %s: Theme name.
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:734
@@ -21,7 +18,7 @@ msgstr "%s的子主题"
 
 #: wp-admin/network/settings.php:63
 msgid "<a href=\"https://wordpress.org/support/article/network-admin-settings-screen/\">Documentation on Network Settings</a>"
-msgstr "<a href=\"https://litepress.cn/support/article/network-admin-settings-screen/\">站点网络设置文档</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/network-admin-settings-screen/\">站点网络设置文档</a>"
 
 #: wp-admin/network/site-info.php:184
 msgctxt "site"
@@ -61,7 +58,7 @@ msgstr "Y/m/d g:i:s a"
 
 #: wp-admin/includes/network.php:629
 msgid "https://wordpress.org/support/article/nginx/"
-msgstr "https://litepress.cn/support/article/nginx/"
+msgstr "https://wordpress.org/support/article/nginx/"
 
 #. translators: %s: Documentation URL.
 #: wp-admin/includes/network.php:628
@@ -108,11 +105,11 @@ msgstr[0] "全部<span class=\"count\">（%s）</span>"
 
 #: wp-admin/network/upgrade.php:31
 msgid "<a href=\"https://wordpress.org/support/article/network-admin-updates-screen/\">Documentation on Upgrade Network</a>"
-msgstr "<a href=\"https://litepress.cn/support/article/network-admin-updates-screen/\">站点网络升级文档</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/network-admin-updates-screen/\">站点网络升级文档</a>"
 
 #: wp-admin/network/index.php:55
 msgid "<a href=\"https://wordpress.org/support/article/network-admin/\">Documentation on the Network Admin</a>"
-msgstr "<a href=\"https://litepress.cn/support/article/network-admin/\">站点网络管理文档</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/network-admin/\">站点网络管理文档</a>"
 
 #. translators: %s: Number of themes.
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:406
@@ -127,11 +124,11 @@ msgstr "主站点"
 
 #: wp-admin/network.php:67 wp-admin/network.php:80
 msgid "<a href=\"https://wordpress.org/support/article/tools-network-screen/\">Documentation on the Network Screen</a>"
-msgstr "<a href=\"https://litepress.cn/support/article/tools-network-screen/\">站点网络界面文档</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/tools-network-screen/\">站点网络界面文档</a>"
 
 #: wp-admin/network.php:66 wp-admin/network.php:79
 msgid "<a href=\"https://wordpress.org/support/article/create-a-network/\">Documentation on Creating a Network</a>"
-msgstr "<a href=\"https://litepress.cn/support/article/create-a-network/\">站点网络创建文档</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/create-a-network/\">站点网络创建文档</a>"
 
 #. translators: %s: DO_NOT_UPGRADE_GLOBAL_TABLES
 #: wp-admin/includes/network.php:118
@@ -262,7 +259,7 @@ msgstr "我们建议您备份现有的 %1$s 和 %2$s 文件。"
 #. translators: 1: localhost, 2: localhost.localdomain
 #: wp-admin/includes/network.php:306
 msgid "Because you are using %1$s, the sites in your WordPress network must use sub-directories. Consider using %2$s if you wish to use sub-domains."
-msgstr "因为您在使用 %1$s，您 LitePress 网络中的站点必须使用子目录。如果您想使用子域名，请考虑使用 %2$s。"
+msgstr "因为您在使用 %1$s，您 WordPress 网络中的站点必须使用子目录。如果您想使用子域名，请考虑使用 %2$s。"
 
 #. translators: %s: Host name.
 #: wp-admin/includes/network.php:288 wp-admin/includes/network.php:348
@@ -280,7 +277,7 @@ msgstr "您在此后将不能修改此值。"
 
 #: wp-admin/includes/network.php:228
 msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories."
-msgstr "请选择您希望您LitePress网络中的站点使用子域名还是子目录。"
+msgstr "请选择您希望您WordPress网络中的站点使用子域名还是子目录。"
 
 #. translators: 1: mod_rewrite, 2: mod_rewrite documentation URL, 3: Google
 #. search for mod_rewrite.
@@ -579,11 +576,11 @@ msgstr "请求的站点不存在。"
 
 #: wp-admin/network/user-new.php:29 wp-admin/network/users.php:230
 msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\">Documentation on Network Users</a>"
-msgstr "<a href=\"https://litepress.cn/Network_Admin_Users_Screen\">站点网络用户文档</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\">站点网络用户文档</a>"
 
 #: wp-admin/network/themes.php:323
 msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\">Documentation on Network Themes</a>"
-msgstr "<a href=\"https://litepress.cn/Network_Admin_Themes_Screen\">站点网络主题文档</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\">站点网络主题文档</a>"
 
 #. translators: 1: Site URL, 2: Server error message.
 #: wp-admin/network/upgrade.php:98
@@ -647,7 +644,7 @@ msgstr "新注册设置"
 #. translators: 1: File name (.htaccess or web.config), 2: File path.
 #: wp-admin/includes/network.php:609 wp-admin/includes/network.php:662
 msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
-msgstr "将这些加入您位于%2$s的%1$s文件，<strong>替换</strong>其他LitePress规则："
+msgstr "将这些加入您位于%2$s的%1$s文件，<strong>替换</strong>其他WordPress规则："
 
 #: wp-admin/network/sites.php:114 wp-admin/network/sites.php:190
 msgid "Confirm your action"
@@ -711,11 +708,11 @@ msgstr "欢迎来到网络管理。这个管理页面可用来管理您的多站
 
 #: wp-admin/network/upgrade.php:140
 msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
-msgstr "LitePress已成功升级！在您接手前，我们需要单独升级您站点网络中的每个站点。"
+msgstr "WordPress已成功升级！在您接手前，我们需要单独升级您站点网络中的每个站点。"
 
 #: wp-admin/network/upgrade.php:23
 msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
-msgstr "请在“更新”或“可用更新”页面（通过“管理网络”区域的导航菜单或“工具栏”来进入）升级到最新LitePress版本之后再使用本页面。点击“升级网络”按钮，LitePress将自动依次升级站点网络中的所有站点（5个一次），并确保所有站点的数据库处于最新结构。"
+msgstr "请在“更新”或“可用更新”页面（通过“管理网络”区域的导航菜单或“工具栏”来进入）升级到最新WordPress版本之后再使用本页面。点击“升级网络”按钮，WordPress将自动依次升级站点网络中的所有站点（5个一次），并确保所有站点的数据库处于最新结构。"
 
 #: wp-admin/network/menu.php:46 wp-admin/network/upgrade.php:15
 #: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:144
@@ -729,7 +726,7 @@ msgstr "已子目录形式创建的站点网络可能无法与自定义的wp-con
 
 #: wp-admin/network.php:62
 msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
-msgstr "加入如下内容到wp-config.php（在<code>/*...stop editing...*/或/*...停止编辑...*/</code>上方）和<code>.htaccess</code>（替换LitePress原来生成的内容）。"
+msgstr "加入如下内容到wp-config.php（在<code>/*...stop editing...*/或/*...停止编辑...*/</code>上方）和<code>.htaccess</code>（替换WordPress原来生成的内容）。"
 
 #: wp-admin/network/settings.php:440
 msgid "Language Settings"
@@ -906,7 +903,7 @@ msgstr "完成这些步骤后，您的站点网络即已启用并配置完成。
 
 #: wp-admin/includes/network.php:545
 msgid "To make your installation more secure, you should also add:"
-msgstr "为使您的 LitePress 安装更加安全，请添加以下行："
+msgstr "为使您的 WordPress 安装更加安全，请添加以下行："
 
 #: wp-admin/includes/network.php:440
 msgid "Complete the following steps to enable the features for creating a network of sites."
@@ -922,7 +919,7 @@ msgstr "请完成配置步骤。如需创建新的站点网络，您需要清空
 
 #: wp-admin/includes/network.php:427
 msgid "An existing WordPress network was detected."
-msgstr "检测到已存在的 LitePress 站点网络。"
+msgstr "检测到已存在的 WordPress 站点网络。"
 
 #: wp-admin/includes/network.php:422
 msgid "The original configuration steps are shown here for reference."
@@ -942,11 +939,11 @@ msgstr "网络标题"
 
 #: wp-admin/includes/network.php:335
 msgid "Because your installation is not new, the sites in your WordPress network must use sub-domains."
-msgstr "因为您的 站点网络 并非全新安装，您LitePress网络中的站点必须使用子域名。"
+msgstr "因为您的 站点网络 并非全新安装，您WordPress网络中的站点必须使用子域名。"
 
 #: wp-admin/includes/network.php:322
 msgid "Because your installation is in a directory, the sites in your WordPress network must use sub-directories."
-msgstr "因为您的 LitePress 安装位于子目录中，所以您 LitePress 网络中的站点必须使用子目录。"
+msgstr "因为您的 WordPress 安装位于子目录中，所以您 WordPress 网络中的站点必须使用子目录。"
 
 #: wp-admin/includes/network.php:312 wp-admin/includes/network.php:325
 #: wp-admin/includes/network.php:336
@@ -996,7 +993,7 @@ msgstr "注："
 
 #: wp-admin/includes/network.php:182
 msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
-msgstr "填写以下信息即可开始创建 LitePress 站点网络。我们将在下一个步骤中创建配置文件。"
+msgstr "填写以下信息即可开始创建 WordPress 站点网络。我们将在下一个步骤中创建配置文件。"
 
 #: wp-admin/includes/network.php:181
 msgid "Welcome to the Network installation process!"
@@ -1033,7 +1030,7 @@ msgstr "在您添加完代码后，请在浏览器刷新页面，之后多站点
 
 #: wp-admin/network.php:61
 msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
-msgstr "在“配置网络”的下一个页面，LitePress将向您提供专为您生成的几行代码，请将它们按要求加入到wp-config.php和.htaccess文件中。请确保您的FTP客户端不隐藏以点（.）开头的文件，这样您才能看到.htaccess文件；若它确实不存在，您需手工创建这个文件。请在对文件作出更改前，备份这两个文件。"
+msgstr "在“配置网络”的下一个页面，WordPress将向您提供专为您生成的几行代码，请将它们按要求加入到wp-config.php和.htaccess文件中。请确保您的FTP客户端不隐藏以点（.）开头的文件，这样您才能看到.htaccess文件；若它确实不存在，您需手工创建这个文件。请在对文件作出更改前，备份这两个文件。"
 
 #: wp-admin/network.php:60
 msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your installation. Fill out the network details, and click Install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
@@ -1045,11 +1042,11 @@ msgstr "您可以在本页面配置使用子域名（<code>site1.example.com</co
 
 #: wp-admin/network.php:55
 msgid "Create a Network of WordPress Sites"
-msgstr "创建LitePress站点网络"
+msgstr "创建WordPress站点网络"
 
 #: wp-admin/network.php:29
 msgid "The Network creation panel is not for WordPress MU networks."
-msgstr "站点网络创建面板不适用于 LitePress MU 网络。"
+msgstr "站点网络创建面板不适用于 WordPress MU 网络。"
 
 #. translators: %s: User login.
 #: wp-admin/network/users.php:77
@@ -1114,7 +1111,7 @@ msgstr "若更新的过程因故中断或失败，登录站点的用户将被要
 
 #: wp-admin/network/upgrade.php:24
 msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
-msgstr "若您没有升级LitePress核心，点击这个按钮是不会起任何作用的。"
+msgstr "若您没有升级WordPress核心，点击这个按钮是不会起任何作用的。"
 
 #: wp-admin/network/themes.php:300
 msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
@@ -1147,7 +1144,7 @@ msgstr "在本页面可对整个站点网络的设置进行修改。第一个站
 #. translators: %s: Reserved names list.
 #: wp-admin/network/site-new.php:59
 msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: %s"
-msgstr "下列名称由LitePress自身功能占用，因此不能作为博客名称：%s"
+msgstr "下列名称由WordPress自身功能占用，因此不能作为博客名称：%s"
 
 #: wp-admin/network/upgrade.php:124
 msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
