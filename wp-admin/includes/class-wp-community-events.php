@@ -10,7 +10,7 @@
 /**
  * Class WP_Community_Events.
  *
- * A client for api.w.org.ibadboy.net/events.
+ * A client for api.litepress.cn/events.
  *
  * @since 4.8.0
  */
@@ -66,7 +66,7 @@ class WP_Community_Events {
 	 * with nearby events.
 	 *
 	 * The browser's request for events is proxied with this method, rather
-	 * than having the browser make the request directly to api.w.org.ibadboy.net,
+	 * than having the browser make the request directly to api.litepress.cn,
 	 * because it allows results to be cached server-side and shared with other
 	 * users and sites in the network. This makes the process more efficient,
 	 * since increasing the number of visits that get cached data means users
@@ -97,7 +97,7 @@ class WP_Community_Events {
 		// Include an unmodified $wp_version.
 		require ABSPATH . WPINC . '/version.php';
 
-		$api_url                    = 'http://api.w.org.ibadboy.net/events/1.0/';
+		$api_url                    = 'http://api.litepress.cn/events/1.0/';
 		$request_args               = $this->get_request_args( $location_search, $timezone );
 		$request_args['user-agent'] = 'LitePress/' . $wp_version . '; ' . home_url( '/' );
 

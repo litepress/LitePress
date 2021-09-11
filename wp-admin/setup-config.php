@@ -336,7 +336,7 @@ switch ( $step ) {
 			$no_api = isset( $_POST['noapi'] );
 
 			if ( ! $no_api ) {
-				$secret_keys = wp_remote_get( 'https://api.w.org.ibadboy.net/secret-key/1.1/salt/' );
+				$secret_keys = wp_remote_get( 'https://api.litepress.cn/secret-key/1.1/salt/' );
 			}
 
 			if ( $no_api || is_wp_error( $secret_keys ) ) {

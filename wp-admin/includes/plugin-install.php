@@ -151,7 +151,7 @@ function plugins_api( $action, $args = array() ) {
 
 	if ( false === $res ) {
 
-		$url = 'http://api.w.org.ibadboy.net/plugins/info/1.2/';
+		$url = 'http://api.litepress.cn/plugins/info/1.2/';
 		$url = add_query_arg(
 			array(
 				'action'  => $action,

@@ -1729,7 +1729,7 @@ function wp_check_browser_version() {
 		// Include an unmodified $wp_version.
 		require ABSPATH . WPINC . '/version.php';
 
-		$url     = 'http://api.w.org.ibadboy.net/core/browse-happy/1.1/';
+		$url     = 'http://api.litepress.cn/core/browse-happy/1.1/';
 		$options = array(
 			'body'       => array( 'useragent' => $_SERVER['HTTP_USER_AGENT'] ),
 			'user-agent' => 'LitePress/' . $wp_version . '; ' . home_url( '/' ),

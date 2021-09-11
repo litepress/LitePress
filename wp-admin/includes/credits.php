@@ -35,7 +35,7 @@ function wp_credits( $version = '', $locale = '' ) {
 		|| false !== strpos( $version, '-' )
 		|| ( isset( $results['data']['version'] ) && strpos( $version, $results['data']['version'] ) !== 0 )
 	) {
-		$url     = "http://api.w.org.ibadboy.net/core/credits/1.1/?version={$version}&locale={$locale}";
+		$url     = "http://api.litepress.cn/core/credits/1.1/?version={$version}&locale={$locale}";
 		$options = array( 'user-agent' => 'WordPress/' . $version . '; ' . home_url( '/' ) );
 
 		if ( wp_http_supports( array( 'ssl' ) ) ) {

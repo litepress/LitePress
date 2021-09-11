@@ -1385,7 +1385,7 @@ class WP_Site_Health {
 		);
 
 		$wp_dotorg = wp_remote_get(
-			'https://api.w.org.ibadboy.net',
+			'https://api.litepress.cn',
 			array(
 				'timeout' => 10,
 			)
@@ -1405,7 +1405,7 @@ class WP_Site_Health {
 					sprintf(
 						/* translators: 1: The IP address WordPress.org resolves to. 2: The error returned by the lookup. */
 						__( 'Your site is unable to reach WordPress.org at %1$s, and returned the error: %2$s' ),
-						gethostbyname( 'api.w.org.ibadboy.net' ),
+						gethostbyname( 'api.litepress.cn' ),
 						$wp_dotorg->get_error_message()
 					)
 				)

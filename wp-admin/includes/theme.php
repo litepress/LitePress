@@ -534,7 +534,7 @@ function themes_api( $action, $args = array() ) {
 	$res = apply_filters( 'themes_api', false, $action, $args );
 
 	if ( ! $res ) {
-		$url = 'http://api.w.org.ibadboy.net/themes/info/1.2/';
+		$url = 'http://api.litepress.cn/themes/info/1.2/';
 		$url = add_query_arg(
 			array(
 				'action'  => $action,
