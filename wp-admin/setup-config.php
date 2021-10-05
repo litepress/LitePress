@@ -150,6 +150,11 @@ switch ( $step ) {
 				$GLOBALS['wp_locale'] = new WP_Locale();
 			}
 		}
+		
+		
+		if ( ! isset( $loaded_language ) ) {
+			load_default_textdomain( 'zh_CN' );
+		}
 
 		setup_config_display_header();
 		$step_1 = 'setup-config.php?step=1';
