@@ -1291,7 +1291,7 @@ function wp_dashboard_events_news() {
 		<?php
 			printf(
 				'<a href="%1$s" target="_blank">%2$s <span class="screen-reader-text">%3$s</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a>',
-				'https://github.com/litepress/',
+				'https://rat.dev/litepress/',
 				__( 'WordCamps' ),
 				/* translators: Accessibility text. */
 				__( '(opens in a new tab)' )

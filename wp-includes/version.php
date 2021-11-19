@@ -1,23 +1,23 @@
 <?php
 /**
- * LitePress ç‰ˆæœ¬
+ * LitePress °æ±¾
  *
- * å½“å‰LitePressåˆ†æ”¯çš„ç‰ˆæœ¬ä¿¡æ¯
+ * µ±Ç°LitePress·ÖÖ§µÄ°æ±¾ÐÅÏ¢
  *
  * @package LitePress
  * @since 5.8.0
  */
 
 /**
- * LitePress ç‰ˆæœ¬å­—ç¬¦ä¸²
+ * LitePress °æ±¾×Ö·û´®
  *
  * @global string $lp_version
  */
-$lp_version = '5.8.1.1';
+$lp_version = '5.8.2-Beta1';
 $wp_version = $lp_version;
 
 /**
- * LitePress æ•°æ®åº“ç‰ˆæœ¬ï¼Œå°†åœ¨å¯¹LitePressæ•°æ®åº“è¿›è¡Œæ›´æ”¹æ—¶é€’å¢žã€‚
+ * LitePress Êý¾Ý¿â°æ±¾£¬½«ÔÚ¶ÔLitePressÊý¾Ý¿â½øÐÐ¸ü¸ÄÊ±µÝÔö¡£
  *
  * @global int $lp_db_version
  */
@@ -25,21 +25,21 @@ $lp_db_version = 49752;
 $wp_db_version = $lp_db_version;
 
 /**
- * TinyMCE ç‰ˆæœ¬
+ * TinyMCE °æ±¾
  *
  * @global string $tinymce_version
  */
 $tinymce_version = '49110-20201110';
 
 /**
- * æœ€ä½Žéœ€è¦çš„ PHP ç‰ˆæœ¬
+ * ×îµÍÐèÒªµÄ PHP °æ±¾
  *
  * @global string $required_php_version
  */
 $required_php_version = '5.6.20';
 
 /**
- * æœ€ä½Žéœ€è¦çš„ MySQL ç‰ˆæœ¬
+ * ×îµÍÐèÒªµÄ MySQL °æ±¾
  *
  * @global string $required_mysql_version
  */
