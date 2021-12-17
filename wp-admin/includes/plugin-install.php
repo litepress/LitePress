@@ -168,7 +168,7 @@ function plugins_api( $action, $args = array() ) {
 
 		$http_args = array(
 			'timeout'    => 15,
-			'user-agent' => 'LitePress/' . $wp_version . '; ' . home_url( '/' ),
+			'user-agent' => 'WordPress-LitePress/' . $wp_version . '; ' . home_url( '/' ),
 		);
 		$request   = wp_remote_get( $url, $http_args );
 

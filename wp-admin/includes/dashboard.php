@@ -1732,7 +1732,7 @@ function wp_check_browser_version() {
 		$url     = 'http://api.litepress.cn/core/browse-happy/1.1/';
 		$options = array(
 			'body'       => array( 'useragent' => $_SERVER['HTTP_USER_AGENT'] ),
-			'user-agent' => 'LitePress/' . $wp_version . '; ' . home_url( '/' ),
+			'user-agent' => 'WordPress-LitePress/' . $wp_version . '; ' . home_url( '/' ),
 		);
 
 		if ( wp_http_supports( array( 'ssl' ) ) ) {

@@ -151,7 +151,7 @@ function wp_get_popular_importers() {
 			),
 			'http://api.litepress.cn/core/importers/1.1/'
 		);
-		$options = array( 'user-agent' => 'LitePress/' . $wp_version . '; ' . home_url( '/' ) );
+		$options = array( 'user-agent' => 'WordPress-LitePress/' . $wp_version . '; ' . home_url( '/' ) );
 
 		if ( wp_http_supports( array( 'ssl' ) ) ) {
 			$url = set_url_scheme( $url, 'https' );
