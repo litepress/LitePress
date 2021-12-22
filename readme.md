@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+<!--
 <head>
 	<meta name="viewport" content="width=device-width" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>LitePress &#8250; ReadMe</title>
 	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
 </head>
+-->
 <body>
 <h1 id="logo">
-	<a href="https://litepress.cn/"><img alt="LitePress" src="wp-admin/images/wordpress-logo.png" /></a>
+	<a href="https://litepress.cn/"><img alt="LitePress" src="//litepress.cn/wp-admin/images/wordpress-logo.png" /></a>
 </h1>
 <p style="text-align: center">LitePress内容管理系统</p>
 
