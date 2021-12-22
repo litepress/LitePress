@@ -10,7 +10,7 @@
 -->
 <body>
 <h1 id="logo">
-	<a href="https://litepress.cn/"><img alt="LitePress" src="//litepress.cn/wp-admin/images/wordpress-logo.png" /></a>
+	<a href="https://litepress.cn/"><img alt="LitePress" src="https://litepress.cn/wp-admin/images/wordpress-logo.png" /></a>
 </h1>
 <p style="text-align: center">LitePress内容管理系统</p>
 
